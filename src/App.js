@@ -4,6 +4,9 @@ import "./App.css";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { createMuiTheme } from "@material-ui/core/styles";
 import jwtDecode from "jwt-decode";
+// Redux
+import { Provider } from "react-redux";
+import store from "./redux/store";
 // Components
 import Navbar from "./components/Navbar";
 import themeObject from "./util/theme";
@@ -19,7 +22,7 @@ let authenticated;
 const token = localStorage.FBIdToken;
 if (token) {
   const decodedToken = jwtDecode(token);
-  if (decodedToken.exp * 1000 < Date.now()) {
+  if (decodedToken.exp * 1000 > Date.now()) {
     authenticated = false;
     window.location.href = "/login";
   } else {
@@ -31,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <div className="App">
+        <Provider store={store}>
           <Router>
             <Navbar />
             <div className="container">
@@ -52,7 +55,7 @@ class App extends Component {
               </Switch>
             </div>
           </Router>
-        </div>
+        </Provider>
       </ThemeProvider>
     );
   }
