@@ -2,11 +2,16 @@ My code for the Classed tutorial on building a social network with React and Fir
 
 YouTube link to Classed: https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP
 
-Classed Github repository: https://github.com/hidjou/classsed-react-firebase-client
+Classed source Github repository: https://github.com/hidjou/classsed-react-firebase-client
 
-In the project directory, you can run:
+1: API Base URL
+Add https://europe-west1-socialape-69760.cloudfunctions.net/api as the 'proxy' value in package.json
 
-### `yarn start`
+2: Install packages
+run npm instll
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3: Run project
+run npm start
+
+4: Open it
+go to http://localhost:3000
