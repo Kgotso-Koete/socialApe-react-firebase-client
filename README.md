@@ -2,7 +2,7 @@ My code for the Classed tutorial on building a social network with React and Fir
 
 YouTube link to [Classed Full Stack React & Firebase series](https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP)
 
-YouTube link to [Classed series Github repository](https://github.com/hidjou/classsed-react-firebase-client)
+Github link to [Classed series Github repository](https://github.com/hidjou/classsed-react-firebase-client)
 
 ## 1: API Base URL
 
