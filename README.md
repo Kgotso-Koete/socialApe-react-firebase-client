@@ -12,21 +12,21 @@ Add https://europe-west1-socialape-69760.cloudfunctions.net/api as the 'proxy' v
 
 ## 2: Install packages
 
-run `npm install`
+Run `npm install`
 
 ## 3: Run project
 
-run `npm start`
+Run `npm start`
 
 ## 4: Open it
 
-go to http://localhost:3000
+Open your web browser and go to http://localhost:3000
 
-## Description and features
+# Description and features
 
-For now, the application will have the following feature set:
+For now, the application will have the following user stories and corresponding features:
 
-# users routes
+## users routes
 
 1. The user can sign up to create an account
    <br/>Back end: `app.post("/signup", signup);`
@@ -56,7 +56,7 @@ For now, the application will have the following feature set:
    <br/>Back end: `app.post("/notifications", FBAuth, markNotificationsRead);`
    <br/>Front end: `Navbar` component with an embedded `Notifications` component without any path specified
 
-# Scream routes
+## Scream routes
 
 8. An unauthenticated user can get a list of posts
    <br/>Back end: `app.get("/screams", getAllScreams);`
