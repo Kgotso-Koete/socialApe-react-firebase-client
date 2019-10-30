@@ -58,7 +58,7 @@ class Scream extends Component {
         <DeleteScream screamId={screamId} />
       ) : null;
     return (
-      <Card className={classes.card}>
+      <Card className={[classes.card, "elevate-shadow"]}>
         <CardMedia
           image={userImage}
           title="Profile image"

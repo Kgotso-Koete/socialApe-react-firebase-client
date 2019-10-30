@@ -23,7 +23,7 @@ const StaticProfile = props => {
   } = props;
 
   return (
-    <Paper className={classes.paper}>
+    <Paper className={[classes.paper, "elevate-shadow"]}>
       <div className={classes.profile}>
         <div className="image-wrapper">
           <img src={imageUrl} alt="profile" className="profile-image" />
