@@ -1,12 +1,16 @@
 # About the project
 
-This is the code I wrote following the Classed tutorial on building a social network using React, Node & Firebase and is based on the SocialApe app ([back end repository](https://github.com/hidjou/classsed-react-firebase-functions), [front end repository](https://github.com/hidjou/classsed-react-firebase-client)) from the [Classed Full Stack React & Firebase tutorial series](https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP) by [Ahmed Hadjou](https://github.com/hidjou)
+This is the code I wrote following the Classed tutorial on building a social network using React, Node & Firebase and is based on the SocialApe app ([back end repository](https://github.com/hidjou/classsed-react-firebase-functions), [front end repository](https://github.com/hidjou/classsed-react-firebase-client)) from the [Classed Full Stack React & Firebase tutorial series](https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP) by [Ahmed Hadjou](https://github.com/hidjou).
 
 This code is for the front end. The back end code I wrote can be found [here](https://github.com/Kgotso-Koete/socialApe-functions).
 
 # How to run the code:
 
 The app is deployed on Google Firebase. Here is the [demo](https://socialape-69760.firebaseapp.com)
+
+# Screen shot of the application
+
+<img src="SocialApe_screen_shot.png">
 
 ## 1: API Base URL
 
