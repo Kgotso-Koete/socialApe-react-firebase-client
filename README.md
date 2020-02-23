@@ -10,7 +10,7 @@ The app is deployed on Google Firebase. Here is the [demo](https://socialape-697
 
 # Screen shot of the application
 
-![](SocialApe_screen_shot.png)
+<img src="/SocialApe_screen_shot.png">
 
 ## 1: API Base URL
 
