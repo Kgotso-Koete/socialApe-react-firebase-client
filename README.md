@@ -91,11 +91,11 @@ For now, the application will have the following user stories and corresponding 
 # Timesheet log
 
 - Version 1 (Classed Tutorial): 59 hours
-- Version 2 (personal modifications): ?
+- Version 2 (personal modifications): 1 hour (Adding page for trending screams based on comment count)
 
 #
 
-This web applicaion is built using React, Node & Firebase and is based on the SocialApe app ([back end repository](https://github.com/hidjou/classsed-react-firebase-functions), [front end repository](https://github.com/hidjou/classsed-react-firebase-client)) from the [Classed Full Stack React & Firebase tutorial series](https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP) by [Ahmed Hadjou](https://github.com/hidjou)
+This web application is built using React, Node & Firebase and is based on the SocialApe app ([back end repository](https://github.com/hidjou/classsed-react-firebase-functions), [front end repository](https://github.com/hidjou/classsed-react-firebase-client)) from the [Classed Full Stack React & Firebase tutorial series](https://www.youtube.com/watch?v=RkBfu-W7tt0&list=PLMhAeHCz8S38ryyeMiBPPUnFAiWnoPvWP) by [Ahmed Hadjou](https://github.com/hidjou)
 
 Special thanks to [Ahmed Hadjou](https://github.com/hidjou) for a great tutorial with a stunning app as a project.<br/><br/>
 To be modified further by Kgotso Koete<br/>

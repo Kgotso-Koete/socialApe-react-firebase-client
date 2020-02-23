@@ -32,6 +32,26 @@ export const getScreams = () => dispatch => {
       });
     });
 };
+
+// Get all screams
+export const getTrendingScreams = () => dispatch => {
+  dispatch({ type: LOADING_DATA });
+  axios
+    .get("/trending")
+    .then(res => {
+      dispatch({
+        type: SET_SCREAMS,
+        payload: res.data
+      });
+    })
+    .catch(err => {
+      dispatch({
+        type: SET_SCREAMS,
+        payload: []
+      });
+    });
+};
+
 export const getScream = screamId => dispatch => {
   dispatch({ type: LOADING_UI });
   axios
