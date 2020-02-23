@@ -8,9 +8,9 @@ This code is for the front end. The back end code I wrote can be found [here](ht
 
 The app is deployed on Google Firebase. Here is the [demo](https://socialape-69760.firebaseapp.com)
 
-# Screen shot of the application
+## Screen shot of the application
 
-![](/SocialApe_screen_shot.png)
+[](/SocialApe_screen_shot.png)
 
 ## 1: API Base URL
 
